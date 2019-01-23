@@ -23,7 +23,7 @@ header h1  {
 nav  {background-color: #5090a8;}
 nav ul  {margin: 0; padding: 0;}
 nav li  {list-style-type: none;}
-nav li.active {background-color: #333;}
+nav li.active {background-color: #c00;}
 nav a  {
     display: block;
     padding: .8rem 0; /* 44 min height */
