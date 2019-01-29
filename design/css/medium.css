@@ -21,7 +21,11 @@
 
 /*----------- MAIN --------------*/
 
-
+main figure.myphoto {
+    width: 50%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
 
 /*----------- FOOTER --------------*/
     
