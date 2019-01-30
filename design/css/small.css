@@ -64,13 +64,14 @@ main figure.myphoto {
     float: right;
 }
 main figure.myphoto img {width: 100%;}
-main figure.myphoto figcaption {text-align: center;font-size: .75rem;}
+
 
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+    clear: both;
 }
 
 
