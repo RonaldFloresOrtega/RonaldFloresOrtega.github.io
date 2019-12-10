@@ -44,8 +44,9 @@
     &copy; 2019 | Ronald Flores | All Rights Reserved | Today's Date: <span id="currentdate"></span>
   </footer>
   <script>
-    const todaysdate = new Date();
-    console.log(todaysdate);
+    // toLocaleDateString
+    const options = {weekday: 'log', day:'numeric', month: 'long', year:'numeric'};
+    document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
   </script>
 </body>
 </html>
