@@ -8,12 +8,16 @@ header, nav, main, footer {
   max-width: 760px;
 }
 
-header h1 {
+header h1, footer {
     background-color: navy;
     color:#0076bb;
     text-align: center;
+}
+
+header h1 {
     padding:1.5rem;
 }
+
 nav ul {padding: 0;}
 nav ul li {
     float: left;
@@ -29,8 +33,6 @@ main h1 {
 }
 main img {
     float: right;
-}
-footer {
-    text-align: center;
-    clear: both;
+    margin: 10px;
+    border: 1px solid #000;
 }
