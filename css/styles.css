@@ -31,7 +31,7 @@ nav ul li a {
 main h1 {
     clear: both;
 }
-main img {
+header img {
     float: right;
     margin: 10px;
     border: 1px solid #000;
