@@ -1,32 +1,6 @@
-// day names array
-const dayNames = [
-   "Sunday",
-   "Monday",
-   "Tuesday",
-   "Wednesday",
-   "Thursday",
-   "Friday",
-   "Saturday"
-];
+<script type="text/javascript">
 
-// Long month names array
-const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-];    
-const todaysdate = new Date();
-const dayName = dayNames[todaysdate.getDay()];
-const monthName = months[todaysdate.getMonth()];
-const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
+var timeStamp = Math.floor(Date.now() / 1000);
 
-document.getElementById('currentdate').textContent = currentdate;
+var d = new Date();
+</script>

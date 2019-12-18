@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link href="css/small.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
-  <link href="js/script.js" rel="stylesheet">
+  <link href="js/currentdate.js" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karma|Pacifico|Montserrat&display=swap" rel="stylesheet">
 </head>
 
@@ -49,7 +49,15 @@
   <footer>
     &copy; 2019 | Ronald Flores | Puno | <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <span id="currentdate"></span>
   </footer>
-  <script src="js/currentdate.js"></script>
+
+  <p id="datestamp">
+
+  </p>
+  
+  <script>
+    var d = new Date();
+    document.getElementById("datestamp").innerHTML = d;
+  </script>
   
 </body>
 
