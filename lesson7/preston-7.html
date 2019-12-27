@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta name="description" content="Week 6 Assignment">
+
+  <title>Preston Weather Report</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <div id="announcement" class="banner">
+      <h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2>
+    </div>
+    <h1><img src="images/PartlyCloudyIcon.png" alt="Weather Logo">
+      Idaho Weather Report</h1>
+    <h2>"Life isn't about waiting for the storm to pass,
+      <br>it's about learning to dance in the rain"</h2>
+
+  </header>
+  <nav>
+    <button onclick="toggleMenu();"> &#9776; </button>
+    <ul id="navigation" class="hide">
+        <li><a href="../lesson11/index.html">Home</a></li>
+        <li><a href="../lesson10/preston10.html">Preston</a></li>
+        <li><a href="../lesson11/sodasprings/sodasprings11.html">Soda Springs</a></li>
+        <li><a href="../lesson11/fishhaven/fishhaven11.html">Fish Haven</a></li>
+        <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson7/preston-7.html" class="active">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Gallery</h1>
+
+      <article class="gallerypics" id="gallerypictures">
+        
+        <figure>
+            <img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic1.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+        <figure>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic2.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+        <figure>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic3.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+        <figure>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic4.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+        <figure>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic5.jpg"
+            alt="Lazy Load Photo" id=>
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+        <figure>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic6.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
+
+      </article>
+
+    <footer>
+
+      <img src="images/Google Maps.jpg" style="width: 400px" class="hide">
+      <br>
+      <div class="resources">
+        <p>Contact Information - Phone: 801-123-4567 | Email: contact@townofpreston.com</p>
+        <a href="..//lesson11/index.html" ></a>Home   |</a></li>
+        <a href="../lesson10/preston10.html">Preston   |</a></li>
+        <a href="../lesson11/sodasprings/sodasprings11.html">Soda Springs   |</a></li>
+        <a href="..//lesson11/fishhaven/fishhaven11.html">Fish Haven   |</a></li>
+        <a href="../lesson8/stormcenter.html">Storm Center   |</a></li>
+        <a href="..//lesson7/preston-7.html" >Gallery</a></li>
+      </div>
+
+      &copy; 2019 &nbsp; Ronald Flores &nbsp; | <a href="#">Terms of Use</a>&nbsp;
+
+      <p id="dateStamp"></p>
+
+      <script>
+        var d = new Date();
+        document.getElementById("dateStamp").innerHTML = d;
+      </script>
+
+
+    </footer>
+
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lazyloading.js" defer></script>
+
+    <script>
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat",
+            "Fjalla One"
+          ]
+        }
+      });
+    </script>
+
+</body>
+
+</html>
