@@ -1,0 +1,55 @@
+/* Medium View */
+@media only screen and (min-width: 40rem) {
+  
+  h1{
+    font-size: 3rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+  nav button {
+    display: none;
+  }
+
+  ul{
+  justify-content: space-evenly;
+  }
+
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+  }
+
+  nav ul li{
+    float:center;
+    padding: .6rem;
+  }
+
+  nav ul.hide{
+    display: 100%;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+    padding: 0.5rem 2%;
+    border-top: none;
+  }
+
+    main {
+		grid-template-columns: 1fr 1fr;
+  }
+}
+
+article .inline{
+  display:none ;
+}
+
+.floatPic{
+	width: 15rem;
+	position: absolute;
+	right: 40px;
+	box-shadow: 0 0 10px #111;
+
+}
