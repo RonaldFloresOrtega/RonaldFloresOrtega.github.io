@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta name="description" content="Temple Inn and Suites">
+
+  <title>Temple Inn and Suites</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Crimson+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <img src="images/TempleInnLogo.png" alt="Temple Inn and Suites Logo">
+    <h1>A special stay, for your most special days.</h1>
+
+  </header>
+
+  <nav>
+    <button onclick="toggleMenu();"> &#9776; </button>
+    <ul id="navigation" class="hide">
+      <li><a href="../lesson13/index.html" class="active">Home</a></li>
+      <li><a href="../lesson13/temples.html">Temples</a></li>
+      <li><a href="../lesson13/reservations.html">Reservations</a></li>
+      <li><a href="../lesson13/services.html">Services</a></li>
+      <li><a href="../lesson13/contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+
+    <main>
+        <h1>Join us at the Temple Inn and Suites!</h1>
+        <img src="images/hotelexterior.jpg" alt="Temple Inn and Suites Exterior" class="leftPic">
+      <article> 
+        <br>
+          The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. 
+          <br><br>We cater to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. Our hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined. <a href='#'>(see here)</a> <br>We offer specialized services to meet the needs of temple patrons who come to serve in the temple or who participate in events such as sealings, weddings, receptions, and youth trips. 
+          <br><br>We strive to assist in making your trip to the temple worry free. We want you to have a special stay on your most special days.
+          <br><br>
+          <a href="reservations.html" class="pageLinks">Make your Reservation Now!</a>
+      </article>
+<br>
+<img src="images/columbia-river-temple-lds.jpg" alt="Columbia River Temple" class="rightPic">
+      <article> 
+          <br>
+          The Columbia River Washington Temple is the 107th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).
+          <br><br>
+          The Columbia River Washington Temple, located in Richland near Badger Mountain, is the third temple in the state of Washington, following the Seattle Washington and Spokane Washington temples. Church membership in Washington has grown from 67,000 members in 1970 to nearly 230,000 in 2001. Because of the tremendous growth church leaders felt another temple should be built within the state. The Columbia River Temple serves 32,000 members in eastern Washington and northern Oregon.
+          <br><br>
+          Some parts of the temple foundation includes 2-inch river rock used as fill in concrete forms. During construction of the temple, people were allowed access to open bins of this river rock at the edge of the construction site. Many people wrote names of children, loved ones, etc. on the rocks that were later incorporated into the building itself.
+          <br><br>
+          (Wikipedia)
+          <br><br>
+         
+      </article>
+    </main>
+   
+<footer>
+  
+      <div class="resources">
+          <img src="images/TempleInnLogoWhite.png" alt="Temple Inn and Suites Logo"width=400px>
+
+        <p>Phone: 503-123-4567 | Email: contact@templeinnandsuites.com</p>
+
+      <p>&copy; 2019 | Temple Inn & Suites | Bethesda, MD <a href="resources.html">Resources</a></p>
+
+      <p id="dateStamp"></p>
+
+      <script>
+        var d = new Date();
+        document.getElementById("dateStamp").innerHTML = d;
+      </script>
+
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+      WebFont.load({
+        google: {
+          families: [
+            "Crimson Text",
+            "Alegreya"
+          ]
+        }
+      });
+    </script>
+
+    <script src="js/index.js"></script>
+    <script src="js/javascript.js"></script>
+
+    
+</body>
+</html>
