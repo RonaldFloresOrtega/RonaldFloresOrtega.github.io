@@ -2,7 +2,7 @@ nav {
     font: size 14px;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-    background-color: #e6e6e6;
+    background-color: #FAFAFA;
     height: 100%;
   }
   
@@ -28,7 +28,7 @@ nav {
   }
   
   header, footer{
-    background-color: #298060;
+    background-color: #ff8000;
     color: #ffffff;
     text-align: center;
     font-family: 'Karma', serif;
