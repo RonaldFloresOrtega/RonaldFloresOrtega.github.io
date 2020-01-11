@@ -1,6 +1,13 @@
-<script type="text/javascript">
+        let d = new Date();
+        let y = d.getFullYear();
+        document.getElementById("currentyear").textContent = y;
 
-var timeStamp = Math.floor(Date.now() / 1000);
-
-var d = new Date();
-</script>
+        let m = new Date(document.lastModified);
+        let month = m.getMonth() + 1;
+        let day = m.getDate();
+        let year = m.getFullYear();
+        let hour = m.getHours();
+        let minutes = m.getMinutes();
+        let seconds = m.getSeconds();
+        let dateString = month + "/" + day + "/" + year + " " + hour + ":" + minutes + ":" + seconds;
+        document.getElementById("lastupdated").textContent = dateString;
