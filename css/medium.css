@@ -10,7 +10,8 @@
     header, footer{
       border-radius: 10px;
     }
-  
+
+    
     header img {
       box-shadow: 0 0 30px #444444;
       float: right;
@@ -18,9 +19,6 @@
       
     }
   
-    body {
-      font-size: 12px;
-    }
   
   
   }
