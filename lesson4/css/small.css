@@ -1,0 +1,103 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:300;
+    color: black;
+
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper {background-color: #FF7212;}
+header {
+    padding: .5rem 0 .5rem 2%;
+    display: grid;
+    grid-template-columns: 110px auto;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+header img {float: left; margin-right: 10px; width: 100px; height: 100px;}
+    
+header h1 {font-size: 1.3rem; font-weight: 700; margin-top: 1rem;}
+header h2 {font-size: 1rem; font-weight: 400; padding-top: .2rem;}
+
+
+/*----------- NAVIGATION --------------*/
+div#navWrapper {background-color: #0B610B;}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    font-family: 'Fjalla One', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid #105410;
+    
+}
+
+nav ul li.active a {
+    background-color: #31B404;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #0A2A0A;
+    color: #fff;
+}
+
+nav ul.hide {display: none;}
+
+/*----------- MAIN --------------*/
+
+main h1 {color:#31B404;}
+main div {
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+  
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #FF7212;
+    padding: .5rem 2%;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
