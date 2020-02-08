@@ -18,7 +18,7 @@ body {
 /*----------- HEADER --------------*/
 div#headerWrapper {background-color: #FF7212;}
 header {
-    padding: .5rem 2%;
+    padding: 0rem 1%;
     display: flex;
     grid-template-columns: 110px auto;
     color: #fff;
