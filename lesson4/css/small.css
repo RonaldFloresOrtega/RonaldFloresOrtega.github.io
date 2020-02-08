@@ -11,26 +11,30 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight:300;
     color: black;
-
+    
 }
 
 
 /*----------- HEADER --------------*/
 div#headerWrapper {background-color: #FF7212;}
 header {
-    padding: .5rem 0 .5rem 2%;
-    display: grid;
+    padding: .5rem 2%;
+    display: flex;
     grid-template-columns: 110px auto;
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
     
 }
 
-header img {float: left; margin-right: 10px; width: 100px; height: 100px;}
+header img {float: left; margin-right: 10px; width: 75px;}
     
 header h1 {font-size: 1.3rem; font-weight: 700; margin-top: 1rem;}
 header h2 {font-size: 1rem; font-weight: 400; padding-top: .2rem;}
 
+header h1 h2 {
+	display: flex;
+	flex-direction: column;
+}
 
 /*----------- NAVIGATION --------------*/
 div#navWrapper {background-color: #0B610B;}
@@ -73,12 +77,12 @@ nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
 
-main h1 {color:#31B404;}
+main h1 {color:#31B404; padding: 0 2%;}
 main div {
     background-color: rgb(207,232,220);
     border: 2px solid rgb(79,185,227);
-    padding: 10px;
-    margin: 10px;
+    padding: .5rem 2%;
+    margin: .5rem 2%;
     border-radius: 5px;
 }
   
