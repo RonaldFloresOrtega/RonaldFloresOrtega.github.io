@@ -61,6 +61,32 @@ section.forecast div img {
             }
     
 
+     
+            
+    section.tortuga {
+    
+        width: 100%;
+        border: 1px solid #aaa;
+        margin: 1em .5em;    
+        }
+
+        section.oruga {
+    
+            width: 100%;
+            margin: 1em .5em;    
+            }
+
+    section.tortuga img, section.oruga img {
+        float: right;
+        width: 30%;
+        padding: .5rem 0;
+            
+                    }
+
+    
+                 
+        
+                
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

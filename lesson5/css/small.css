@@ -108,6 +108,42 @@ h1, h2, p {margin: 0;}
     color:#fff; 
 }
 section.forecast{display:none;}
+
+section.tortuga h2, section.oruga h2 {
+                    
+        margin: 0;
+        padding: 1rem 0;
+        color: #e5e619;
+                    
+                    }
+
+
+section.tortuga {
+    
+    width: 100%;
+    border: 1px solid #aaa;
+    margin: 1em .5em; 
+    padding: 0em .5em;  
+            }
+
+section.oruga {
+    
+                width: 100%;
+                
+                margin: 1em .5em; 
+                padding: 0em .5em;  
+                        }
+
+
+section.tortuga img, section.oruga img {
+    
+    width: 100%;
+    padding: .5em;
+            }
+
+
+
+
   
 
 /*----------- FOOTER --------------*/
@@ -128,3 +164,10 @@ footer {
   clear: both;
   
 }
+
+.tortuga:after {
+    
+    content: "";
+  display: table;
+  clear: both;
+  }
