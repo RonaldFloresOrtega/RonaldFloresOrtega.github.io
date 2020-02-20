@@ -109,14 +109,20 @@ h1, h2, p {margin: 0;}
 }
 section.forecast{display:none;}
 
-section.tortuga h2, section.oruga h2 {
+section.tortuga h2 {
                     
         margin: 0;
         padding: 1rem 0;
         color: #e5e619;
                     
                     }
-
+main h2 {
+                    
+    margin: 1em 1em .5em .75em;
+        color: #e5e619;
+                                    
+         }
+                    
 
 section.tortuga {
     
@@ -126,22 +132,36 @@ section.tortuga {
     padding: 0em .5em;  
             }
 
-section.oruga {
-    
-                width: 100%;
-                
-                margin: 1em .5em; 
-                padding: 0em .5em;  
-                        }
-
-
-section.tortuga img, section.oruga img {
+section.tortuga img {
     
     width: 100%;
     padding: .5em;
             }
 
-
+            .preston {
+                max-width: 100%;
+                display: none;
+                margin: 1em;
+            }
+            
+            .contact p {
+                margin: 0em 1em 0em 1em;
+            }
+            
+            .contact h3 {
+                margin: 1em 1em .5em 1em;
+            }
+            
+            .contact {
+                display: flex;
+                margin: 0em;
+                font-size: 15px;
+            }
+            
+            .first {
+                width: 50%;
+            }
+            
 
 
   
