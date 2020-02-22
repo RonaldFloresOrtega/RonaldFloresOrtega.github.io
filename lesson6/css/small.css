@@ -189,10 +189,3 @@ footer {
   clear: both;
   
 }
-
-.tortuga:after {
-    
-    content: "";
-  display: table;
-  clear: both;
-  }
