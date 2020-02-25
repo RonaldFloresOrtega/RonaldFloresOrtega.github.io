@@ -1,0 +1,28 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+    
+
+/*----------- MAIN --------------
+
+
+main {
+    max-width: 400px;
+    margin: auto;
+}
+             */    
+        
+                
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
