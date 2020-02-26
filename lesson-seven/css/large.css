@@ -27,6 +27,11 @@ main {
 }
 
 
+main picture{
+    
+    box-shadow: 0 0 5px #000;
+}
+
 .wrapper {
     
     grid-template-columns: 1fr 1fr 1fr;
