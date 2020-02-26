@@ -84,46 +84,34 @@ nav ul.hide {display: none;}
 
 
 
-main h1 {color:#31B404; padding: 0 2%;}
+main h1 {color:#31B404; padding: 0 1rem 0 1rem;}
 
 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding: 0 1.2rem 0 1.2rem;
     
   }
 
 
 
-main {
+main picture{
     
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px;
+    padding: 0 0 .7rem 0;
+    margin: 0;
+    box-shadow: 0 0 5px #000;
 }
 
-picture img { width: 250px; height: 200px; margin: .5rem; width: auto;}
-figcaption {font-size: smaller;}
+picture img { width: 100%;}
+figcaption {font-size: smaller; padding: .7rem; margin: 0;}
+    
 
 
 
 
-
-
-picture img[data-src] {
-	filter: blur(0.2em);
-}
-
-picture img {
-	filter: blur(0em);
-	transition: filter 0.5s;
-	margin: 5px;
-	min-width: 300px;
-
-
-}
-
-                    
+          
 
 
 
