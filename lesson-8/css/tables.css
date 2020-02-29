@@ -1,3 +1,11 @@
+body{
+  width: 250px;
+  margin: 0 auto;
+  position:relative;
+  top:50px;
+  text-align: center;
+}
+
 
 thead {
     background-color: #7fb9c2;
@@ -28,6 +36,8 @@ table {
     border: 1px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+
+    box-shadow: 8px 10px 25px 2px #628ca6;  
     
   }
   
