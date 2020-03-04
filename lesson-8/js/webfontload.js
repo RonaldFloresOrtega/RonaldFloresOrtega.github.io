@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ['Ubuntu','sans-serif']
-      }
+      families: ['Fjalla One','Josefin Sans']
+    }
   });
