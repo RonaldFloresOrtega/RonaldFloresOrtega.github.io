@@ -1,0 +1,133 @@
+/*---phone view---*/
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+header,
+main,
+footer {
+    
+    margin: 0 auto;  
+}
+
+body {
+    
+    text-align: center;  
+}
+
+/*----------- HEADER --------------*/
+
+h1 {
+    margin: 5px;
+    padding: 15px;
+    color: #8b888e;
+    font-family: 'Sedgwick Ave', cursive;
+    
+    
+}
+
+/*----------- MAIN --------------*/
+
+    main section {
+    margin-left: 25px;
+        }
+    main h2 {
+      font-family: 'Aguafina Script', cursive;
+      color: #8b888e;
+
+        }
+  
+    main p {
+      font-family: cursive;
+      font-size: 13px;
+        }
+
+    .cards {
+        display: grid;
+        box-shadow: 0 0 15px #000;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));  
+        }
+
+.cards section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #97ebdb;  
+}
+
+.cards section img {
+    width: 100%;
+    height: auto;
+}
+
+  /*----------- FOOTER --------------*/
+
+  footer {
+    border-top: 2px solid #97ebdb;
+    margin: 7px;
+    padding: 10px;
+    color: #8b888e; 
+    font-family: 'Sedgwick Ave', cursive;
+  }
+
+
+  /*---tablet view---*/
+
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+                    
+    
+    /*----------- MAIN --------------*/
+
+    main {
+        max-width: 800px;
+        margin: 1em auto;
+    }
+           
+    .cards { 
+        grid-template-columns: 1fr 1fr; 
+        }    
+                    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */
+
+ 
+
+  /*---desktop view---*/
+
+  /* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 1141px) {
+
+    
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+/*----------- MAIN --------------*/
+
+main {
+    max-width: 1070px;
+    margin: 1em auto;
+}
+
+.cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+
+    }   
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
