@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ['Sedgwick Ave','Aguafina Script']
+      families: ['Fjalla One','Josefin Sans']
     }
   });
