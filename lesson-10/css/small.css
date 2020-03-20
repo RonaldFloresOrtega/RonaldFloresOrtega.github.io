@@ -180,19 +180,28 @@ section.tortuga img {
             
             
             
-               section#weatherforecast div {
+            section#weatherforecast div {
                 text-align: center;
                 border: 1px solid #aaa;
+                background-color: #31B404;
                 }
                section#weatherforecast div span {
-                    background-color: #FF7212;
-                    margin: 0;
-                    padding: 1rem 0;
+                    
+                background-color: rgb(180, 110, 4);
+                width: auto;
                     
                     }
+
+                    section#weatherforecast div p {
+                       
+                        
+                        padding: 1.5rem 0;
+                        
+                        }
+
                   section#weatherforecast div img {
                 width: auto;
-                padding: .5rem 0;
+                padding: 0;
                         }
 
   
