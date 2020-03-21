@@ -1,0 +1,139 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header img {width: auto;}
+    header h1 {font-size: 2rem;}
+    header h2 {font-size: 1.5rem;}
+
+
+/*----------- NAVIGATION --------------*/
+    
+nav {
+        
+    background-color: #0B610B;
+        }
+        nav button {display:none; }
+    
+        nav ul.hide {display:block; }
+    
+        nav ul {margin-left: 2%;}
+        
+        nav ul li {
+            float:left;
+        }
+    
+        nav ul li a {
+            border:none;
+            border-right: 1px solid #105410;
+            padding: .6rem 1rem;
+        }
+
+        nav ul { display: flex; }
+		nav ul li { flex: 1 1 100%; }
+/*----------- MAIN --------------*/
+
+main div.fore h2 {color:#31B404; text-align: center; margin: .5em auto;}
+
+section#weatherforecast {
+   
+    grid-template-columns: 1fr 1fr 1fr;
+}
+            
+    article.tortuga {
+    
+        width: 100%;
+        border: 1px solid #aaa;
+        margin: 1em .5em;    
+        }
+
+        
+
+    article.tortuga img {
+        float: right;
+        width: 30%;
+        padding: .5rem 0;
+            
+                    }
+
+                    .preston {
+                        display: block;
+                        float: right;
+                        width: 33%;
+                        height: 12rem;
+                        padding-right: 1rem;
+                    }
+                
+                    .contact {
+                        display: flex;
+                        margin: 0em;
+                    }
+                
+                    .first {
+                        width: 33%;
+                    }
+                
+                    .second {
+                        width: 33%;
+                    } 
+    
+                 
+        
+/*----------- home cities --------------*/
+main {
+    max-width: 800px;
+    margin: 1em auto;
+}          
+
+main section h2 {
+  padding: 1.5em 0 0 0;
+}  
+
+main section h3 {
+padding: 0 0 .5em 0;
+}  
+ 
+  .cards {
+      display: grid;
+      box-shadow: 0 0 15px #000;
+      grid-template-columns: 1fr;  
+      }
+
+.cards section {
+
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards section div{
+
+width: 50%;
+}
+
+.cards section div h2, h3, p
+{
+
+display: block;
+}
+.cards section img {
+position: relative;
+width: 320px;
+margin: .8rem;
+}
+
+.cards section:nth-child(odd)
+{
+    
+flex-direction: row-reverse;
+}
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
