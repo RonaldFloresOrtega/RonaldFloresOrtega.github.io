@@ -272,9 +272,10 @@ article.tortuga img {
                 background-color: #31B404;
                 
                 }
-               section#weatherforecast div span {
+               section#weatherforecast div h2 {
                     
                 font-size: 20px;
+                padding: 1rem 0 0 0;
                 
                 
               /*-  background-color: rgb(180, 110, 4);
