@@ -44,7 +44,7 @@ fetch(apiURL)
 
                                     forecastDayNumber +=1;  //bien
                                     if(forecastDayNumber === 7){forecastDayNumber = 0;}  //bien
-                                    console.log("Forecast Day Number " + forecastDayNumber+"which is"+weekday[forecastDayNumber]);
+                                    //console.log("Forecast Day Number " + forecastDayNumber+"which is"+weekday[forecastDayNumber]);
 
                                     let theDayName = document.createElement("h2");   //bien
                                     theDayName.textContent = weekday[forecastDayNumber];  //bien
@@ -53,7 +53,7 @@ fetch(apiURL)
                                     let theTemp = document.createElement("p");   //bien
                                     theTemp.textContent = weatherInfo.list[i].main.temp + "\xB0"+"F";   //bien
 
-                                    console.log("TEMPERATURE>"+weatherInfo.list[i].main.temp);
+                                    //console.log("TEMPERATURE>"+weatherInfo.list[i].main.temp);
 
                                     let iconcode = weatherInfo.list[i].weather[0].icon;  //bien
                                     let iconPath = "http://openweathermap.org/img/w/" + iconcode + ".png";   //bien
