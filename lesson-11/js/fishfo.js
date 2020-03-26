@@ -25,7 +25,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherInfo);
+    //console.log(weatherInfo);
 
      //Once console.log(weatherInfo.city.name);   si esta video
     
