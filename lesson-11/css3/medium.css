@@ -38,14 +38,25 @@ nav {
 		nav ul li { flex: 1 1 100%; }
 /*----------- MAIN --------------*/
 
-main {
-    max-width: 800px;
-    margin: 0em auto;
-}   
+
 
 .wrapper {
     
     grid-template-columns: 1fr 1fr;
+  }
+
+  .norm2 {
+    
+    width: 90%;
+    display:block;
+    margin:auto;
+    
+  }
+
+  .norm3 {
+    
+    width: 50%;
+    
   }
 
   

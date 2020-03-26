@@ -24,27 +24,34 @@ nav ul li a {padding: .5rem 1rem;}
 /*----------- MAIN --------------*/
 
 main {
-    max-width: 1024px;
+   
     margin: 0 auto 1rem auto;
 }
 
-main picture{
+main h1 { 
+    text-align: center;
     
-    box-shadow: 0 0 5px #000;
 }
 
 .wrapper {
     
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    
   }
+
+  .norm1, .norm2, .norm3 {
+    
+    width: 98%;
+    display:block;
+    margin:auto;
+
+  }
+
 
   /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
 
 /*----------- FOOTER --------------*/
-footer {
-    max-width: 990px;
-    margin: 0 auto;
-}
+
 
 } /* end of media query */

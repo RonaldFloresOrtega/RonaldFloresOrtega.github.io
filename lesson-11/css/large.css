@@ -1,10 +1,15 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 1141px) {
 
-    header, nav {
+    header, nav, footer, main {
         max-width: 1024px;
         margin: 0 auto;
     }
+
+    
+    
+
+   
 
 /*----------- BODY --------------*/
 
@@ -21,10 +26,7 @@ nav ul li a {padding: .5rem 1rem;}
   
 
 /*----------- MAIN --------------*/
-main {
-    max-width: 1024px;
-    margin: 1em auto;
-}
+
 
 
 section#weatherforecast {
@@ -32,7 +34,16 @@ section#weatherforecast {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.events {
+	width: 33%;
+    }
 /*-----home cities-----*/
+
+.cards section h2 {
+    
+    padding: 0;
+    
+      }
 
     .cards section {
       display: grid;
@@ -56,7 +67,7 @@ section#weatherforecast {
   .cards section {
       margin: 0.5rem;
       padding: 0.5rem;
-      background-color: #97ebdb;  
+       
   }
   
   .cards section img {
@@ -67,5 +78,7 @@ section#weatherforecast {
   }
 
 /*----------- FOOTER --------------*/
-    
+
+
+
 } /* end of media query */

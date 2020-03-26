@@ -38,12 +38,21 @@ nav {
 		nav ul li { flex: 1 1 100%; }
 /*----------- MAIN --------------*/
 
-main div.fore h2 {color:#31B404; text-align: center; margin: .5em auto;}
+main div.fore h2 {color:#b46e04; text-align: center; margin: .5em auto;}
 
 section#weatherforecast {
-   
+    display: grid;
+    margin:0 20%;
     grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    
 }
+
+
+
+.events {
+	  width: 50%;
+    }
             
     article.tortuga {
     
@@ -56,10 +65,21 @@ section#weatherforecast {
 
     article.tortuga img {
         float: right;
-        width: 30%;
-        padding: .5rem 0;
+        
+        margin-left: 2%;
             
                     }
+
+                   
+                
+                        
+                
+                    article.story img {
+                        float: right;
+                        
+                        margin-left: 2%;
+                            
+                                    }
 
                     .preston {
                         display: block;
@@ -71,7 +91,7 @@ section#weatherforecast {
                 
                     .contact {
                         display: flex;
-                        margin: 0em;
+                        
                     }
                 
                     .first {
@@ -87,16 +107,14 @@ section#weatherforecast {
 /*----------- home cities --------------*/
 main {
     max-width: 800px;
-    margin: 1em auto;
+    margin: 0em auto;
 }          
 
-main section h2 {
+.cards section h2 {
   padding: 1.5em 0 0 0;
 }  
 
-main section h3 {
-padding: 0 0 .5em 0;
-}  
+
  
   .cards {
       display: grid;

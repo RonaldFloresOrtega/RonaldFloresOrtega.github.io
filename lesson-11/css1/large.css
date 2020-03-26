@@ -29,5 +29,9 @@ form label.sbs {
 
 
 /*----------- FOOTER --------------*/
+footer {
+    max-width: 990px;
+    margin: 0 auto;
+}
     
 } /* end of media query */

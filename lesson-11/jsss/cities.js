@@ -11,7 +11,7 @@ fetch(requestURL)
         let nameTown = towns[i].name;
         if (nameTown == "Fish Haven" || nameTown == "Preston" || nameTown =="Soda Springs")
         {  
-          let citySection = document.createElement('section');
+      let citySection = document.createElement('section');
       let card = document.createElement('div');
 
       let h2 = document.createElement('h2');
