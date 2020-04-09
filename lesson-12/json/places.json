@@ -2,21 +2,21 @@
     "tours": [
       {
         "name": "Lake 69",
-        "image": "images/laguna-69.jpg",
+        "image": "laguna-69.jpg",
         "description": "Laguna 69 is a magical place that will – figuratively and literally – take your breath away. The altitude of the lagoon is at an incredible 4500m (14,764 ft) but it is absolutely worth the hike to reach this amazing view.(Peru Hop)",
         "numberVisitors": 1399345
                 
       },
       {
         "name": "Llanganuco Lake",
-        "image": "images/lake-llanganuco.jpg",
+        "image": "lake-llanganuco.jpg",
         "description": "Never in your life have you witnessed such an intoxicating shade of turquoise. Here at the mesmerizing Llanganuco Lakes in Huascaran National Park, twin dollops of turquoise water shine brilliantly against the snowcapped spine of Peru’s Cordillera Blanca.(Viator)",
         "numberVisitors": 940118
                 
       },
       {
         "name": "Duck Canyon",
-        "image": "images/canon-pato.jpg",
+        "image": "canon-pato.jpg",
         "description": "Formed by the Santa (Saintly) river as it passes through the Callejón de Huaylas, this is the point where the Cordillera Blanca and the Cordillera Negra are closest to each other. The canyon, between 1,400 and 1,850 masl, is 15 metres wide and almost 1,000 metres deep.(Peru Travel Tips)",
         "numberVisitors": 766824
                 
