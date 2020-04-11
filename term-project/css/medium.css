@@ -1,0 +1,106 @@
+@media only screen and (min-width: 560px) {
+    
+    
+ /*----------- BODY --------------*/
+ 
+ /*----------- HEADER --------------*/
+header img {width: 85px; margin: 0 9px 0 0;}
+header h1 {font-size: 1.8rem; margin: .8rem 0 0 0;}
+header h2 {font-size: 1.5rem;}
+
+ /*----------- NAVIGATION --------------*/
+ nav button {display:none; }
+ nav ul.hide {display:block; }
+ nav li {width: 25%; float: left;}
+ nav ul li a {
+    border:none;
+    border-right: 1px solid #4169E1;
+    padding: .6rem 1rem;
+    font-size: 20px;
+    
+}
+
+/*----------- MAIN --------------*/
+
+/*-------- home -------*/
+main picture img{
+    height: 220px;
+}
+main div.fives {display:block; color: #4169E1; text-align: center;font-size: 20px;}
+main div.fives h2 {font-size: 25px;}
+section#weathforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #4169E1;
+    margin: 0 25%;
+    }
+section#weathforecast div {
+        text-align: center;
+        background-color: #FFFF00;
+        margin:4px;
+        }
+section#weathforecast div h2 {font-size: 18px;}
+section#weathforecast div img {width: auto;}
+section#weathforecast div p {font-size: 18px;}
+
+/*------ tours -----*/
+.features {
+    display: grid;
+    box-shadow: 0 0 15px #000;
+    grid-template-columns: 1fr;  
+    }
+.features section {
+  
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+.features section div{
+  
+            width: 40%;
+            }
+.features section div h2, h3, p {display: block;}
+.features section h2 {
+    padding: 1.5em 0 0 0;
+    font-size: 28px;
+  }  
+.features section p {
+    font-size: 20px;
+    }
+.features section img {
+    display: block;
+    float: right;
+  width: 50%;
+  margin: .8rem;
+  }
+.features section:nth-child(odd)  {flex-direction: row-reverse;}
+
+/*------ visit -----*/
+
+/*------ thankyou -----*/
+
+/*------ contact -----*/
+.contact {
+    display: flex;
+    font-size: 15px;
+    padding: 1em 0 0 1em;
+    background: radial-gradient(#CEF6CE, #CEF6CE);
+    border: 1px #105410;
+}
+.mitad {width: 35%;} 
+ 
+.contact h3 {
+    margin: 1em 1em .5em 1em;
+}
+.contact p {
+    margin: 0em 1em 0em 1em;
+}
+.preston {
+    display: block;
+    width: 65%;
+    height: 18rem;
+}
+
+/*----------- FOOTER --------------*/
+footer {font-size: 17px;}
+} /* end of media query */
