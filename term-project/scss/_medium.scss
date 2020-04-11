@@ -1,6 +1,4 @@
-@media only screen and (min-width: 560px) {
-    
-    
+ 
  /*----------- BODY --------------*/
  
  /*----------- HEADER --------------*/
@@ -36,7 +34,7 @@ section#weathforecast {
     }
 section#weathforecast div {
         text-align: center;
-        background-color: #FFFF00;
+        background-color: $primaryColor;
         margin:4px;
         }
 section#weathforecast div h2 {font-size: 18px;}
@@ -103,4 +101,3 @@ section#weathforecast div p {font-size: 18px;}
 
 /*----------- FOOTER --------------*/
 footer {font-size: 17px;}
-} /* end of media query */
