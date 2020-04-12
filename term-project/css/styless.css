@@ -451,11 +451,11 @@ body {
   font-size: 20px;
 }
 
-div#headerfooterWrapper {
+/*----------- HEADER --------------*/
+div#headerWrapper {
   background-color: #4169E1;
 }
 
-/*----------- HEADER --------------*/
 header {
   padding: 0.1rem 2%;
 }
@@ -550,7 +550,7 @@ main div.fives {
   display: none;
 }
 
-section#weathforecast {
+div#weathforecast {
   display: none;
 }
 
@@ -675,6 +675,10 @@ form label.sbs {
 }
 
 /*----------- FOOTER --------------*/
+div#footerWrapper {
+  background-color: #4169E1;
+}
+
 footer {
   text-align: center;
   padding: 1rem 2%;
@@ -737,24 +741,24 @@ footer a:link {
   main div.fives h2 {
     font-size: 25px;
   }
-  section#weathforecast {
+  div#weathforecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     color: #4169E1;
     margin: 0 25%;
   }
-  section#weathforecast div {
+  div#weathforecast div {
     text-align: center;
     background-color: #FFFF00;
     margin: 4px;
   }
-  section#weathforecast div h2 {
+  div#weathforecast div h2 {
     font-size: 18px;
   }
-  section#weathforecast div img {
+  div#weathforecast div img {
     width: auto;
   }
-  section#weathforecast div p {
+  div#weathforecast div p {
     font-size: 18px;
   }
   /*------ tours -----*/
@@ -852,7 +856,7 @@ footer a:link {
   }
   /*----------- MAIN --------------*/
   /*-------- home -------*/
-  section#weathforecast {
+  div#weathforecast {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   /*------ tours -----*/

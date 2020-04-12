@@ -10,9 +10,8 @@ body {
         font-size: 20px;
 }
 
-div#headerfooterWrapper {background-color: #4169E1;}  
-
 /*----------- HEADER --------------*/
+div#headerWrapper {background-color: #4169E1;} 
 header {
     padding: .1rem $gutter;
     }
@@ -67,7 +66,7 @@ main picture img{
     margin: 0 auto;
 }
 main div.fives {display:none;}
-section#weathforecast {display: none;}
+div#weathforecast {display: none;}
 
 /*------ tours -----*/
 .features {
@@ -178,6 +177,7 @@ form label.sbs {
 }
 
 /*----------- FOOTER --------------*/
+div#footerWrapper {background-color: #4169E1;} 
 footer {
     text-align: center;
     padding: 1rem $gutter;
@@ -186,7 +186,6 @@ footer {
 footer a:link{
     text-decoration: none;
 }
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
