@@ -68,7 +68,41 @@ main picture img{
 main div.fives {display:none;}
 div#weathforecast {display: none;}
 
-/*------ tours -----*/
+main h2 {
+    color: #4169E1;
+    font-weight: 600;
+  }
+  
+  main figure {
+    margin: 0;
+    width: 100%;
+  }
+  
+  main figure img {
+    width: 100%;
+  }
+  
+  main figcaption {
+    text-align: center;
+    font-size: .8rem;
+  }
+
+/*----- gallery ----*/
+main h1 {color:#4169E1; padding: 0 1rem 0 1rem;}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding: 0 1.2rem 0 1.2rem;
+    }
+main picture{
+    padding: 0 0 .7rem 0;
+    margin: 0;
+    }
+picture img { width: 100%;}
+figcaption {font-size: smaller; padding: .7rem; margin: 0;}
+
+/*--- activities ---*/
 .features {
     display: grid;
     grid-template-columns: 1fr;  

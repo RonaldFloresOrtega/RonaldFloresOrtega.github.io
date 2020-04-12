@@ -20,8 +20,21 @@ nav a {padding: .5rem 1rem;}
 
 /*-------- home -------*/
 div#weathforecast {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+main figure {
+    width: 31%;
+  }
 
-/*------ tours -----*/
+/*----- gallery ----*/
+main picture{
+    box-shadow: 0 0 5px #000;
+}
+.wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+
+/*--- activities ---*/
 
 /*------ visit -----*/
 

@@ -554,7 +554,54 @@ div#weathforecast {
   display: none;
 }
 
-/*------ tours -----*/
+main h2 {
+  color: #4169E1;
+  font-weight: 600;
+}
+
+main figure {
+  margin: 0;
+  width: 100%;
+}
+
+main figure img {
+  width: 100%;
+}
+
+main figcaption {
+  text-align: center;
+  font-size: .8rem;
+}
+
+/*----- gallery ----*/
+main h1 {
+  color: #4169E1;
+  padding: 0 1rem 0 1rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  padding: 0 1.2rem 0 1.2rem;
+}
+
+main picture {
+  padding: 0 0 .7rem 0;
+  margin: 0;
+}
+
+picture img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: smaller;
+  padding: .7rem;
+  margin: 0;
+}
+
+/*--- activities ---*/
 .features {
   display: grid;
   grid-template-columns: 1fr;
@@ -718,7 +765,7 @@ footer a:link {
     display: block;
   }
   nav li {
-    width: 25%;
+    width: 20%;
     float: left;
   }
   nav ul li a {
@@ -761,7 +808,17 @@ footer a:link {
   div#weathforecast div p {
     font-size: 18px;
   }
-  /*------ tours -----*/
+  main figure {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+  }
+  /*----- gallery ----*/
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  /*--- activities ---*/
   .features {
     display: grid;
     box-shadow: 0 0 15px #000;
@@ -859,7 +916,21 @@ footer a:link {
   div#weathforecast {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  /*------ tours -----*/
+  main figure {
+    width: 31%;
+  }
+  /*----- gallery ----*/
+  main picture {
+    box-shadow: 0 0 5px #000;
+  }
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* hover effect */
+  .norm:hover {
+    box-shadow: 0 0 50px #333;
+  }
+  /*--- activities ---*/
   /*------ visit -----*/
   /*------ thankyou -----*/
   /*------ contact -----*/

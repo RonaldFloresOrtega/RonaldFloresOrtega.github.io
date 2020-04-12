@@ -9,7 +9,7 @@ header h2 {font-size: 1.5rem;}
  /*----------- NAVIGATION --------------*/
  nav button {display:none; }
  nav ul.hide {display:block; }
- nav li {width: 25%; float: left;}
+ nav li {width: 20%; float: left;}
  nav ul li a {
     border:none;
     border-right: 1px solid #4169E1;
@@ -41,7 +41,19 @@ div#weathforecast div h2 {font-size: 18px;}
 div#weathforecast div img {width: auto;}
 div#weathforecast div p {font-size: 18px;}
 
-/*------ tours -----*/
+main figure {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+  }
+
+/*----- gallery ----*/
+.wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+/*--- activities ---*/
 .features {
     display: grid;
     box-shadow: 0 0 15px #000;
